@@ -8,7 +8,7 @@ get_os_info() {
 
 get_user_info() {
     echo "Hostname: $(hostname)"
-    echo "User: $(whoami)"
+    echo "User: $SUDO_USER"
 }
 
 get_memory_info() {
